@@ -1,9 +1,10 @@
 # Current inventory on shelf
 shelf = ("apples", "oranges", "bananas", "apples", "grapes", "bananas", "apples")
+banana_index = shelf.index("bananas")
+print("First Banana Index:",banana_index)
 apple_count = shelf.count("apples")
 print("Number of Apples:",apple_count)
-banana_index = shelf.index("bananas")
-print("First Banana Index",banana_index)
+
 # replace your line 7 with the following:
 if apple_count < 5:
     print("Apples need to be restocked.")
